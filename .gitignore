@@ -1,0 +1,59 @@
+
+# ==================================
+# Python environment and cache
+# ==================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ==================================
+# Jupyter Notebook
+# ==================================
+.ipynb_checkpoints/
+
+# ==================================
+# macOS system files
+# ==================================
+.DS_Store
+
+# ==================================
+# Raw research dataset
+# ==================================
+data/
+
+# ==================================
+# Trained model files
+# ==================================
+outputs/models/
+*.joblib
+*.pkl
+
+# ==================================
+# Temporary files
+# ==================================
+*.log
+*.tmp
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+
+# Temporary notebook files
+*.ipynb~
+# Original notebook with saved outputs
+/01_data_understanding.ipynb
+
+# Unreviewed original outputs
+outputs/figures/
+outputs/results/
+
+# Local project inventory - not for publication
+outputs/project_output_inventory.txt
+/01_data_understanding.ipynb.ipynb
+outputs/public_results/model_B_class_reliability.csv

@@ -1,0 +1,3 @@
+Model,Multiclass_Brier_Score,Log_Loss
+Model B - CatBoost,0.7192375771570942,1.4829692552745062
+Training class-prior baseline,0.7193371210010497,1.4801496069119309
